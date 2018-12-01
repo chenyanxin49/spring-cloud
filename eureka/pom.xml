@@ -28,7 +28,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- jaxb模块引用 - start -->
+        <!-- jaxb模块引用 java 8不需要， 8以上版本需要 - start -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>

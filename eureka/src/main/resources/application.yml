@@ -2,3 +2,6 @@ spring:
   profiles:
     # 集群模式 分别以peer1和peeer2 配置信息启动eureka
     active: dev
+
+  application:
+    name: eurake

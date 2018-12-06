@@ -1,9 +1,5 @@
 server:
-  port: 9999
-
-spring:
-  application:
-    name: zuul
+  port: 9000
 
 eureka:
   client:

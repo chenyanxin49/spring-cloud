@@ -1,9 +1,7 @@
 server:
-  port: 9001
+  port: 9010
 
 spring:
-  application:
-    name: order
   datasource:
     url: jdbc:mysql://localhost/test?useSSL=false&characterEncoding=utf-8&allowMultiQueries=true
     username: root

@@ -1,3 +1,9 @@
 spring:
   profiles:
     active: dev
+  application:
+    name: order
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml #mapper映射文件
+  type-aliases-package: com.example.order.model #entity别名类

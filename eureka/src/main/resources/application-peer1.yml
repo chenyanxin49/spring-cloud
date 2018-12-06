@@ -4,10 +4,6 @@
 server:
   port: 8761
 
-spring:
-  application:
-    name: eurake
-
 eureka:
   instance:
     hostname: peer1

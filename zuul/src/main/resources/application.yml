@@ -4,3 +4,9 @@ spring:
 
   application:
     name: zuul
+
+zuul:
+  routes:
+    order:
+      path: /order/**
+      serviceId: order  #如果是/order/**路径下的请求，则跳转到order微服务中

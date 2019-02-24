@@ -7,6 +7,11 @@ spring:
     username: root
     password: cyxcwj
 
+  jpa:
+    database: mysql
+    show-sql: true
+    open-in-view: true
+
 eureka:
   instance:
     hostname: localhost
